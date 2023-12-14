@@ -1,0 +1,32 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+@import "variables";
+
+.footer{
+    margin-top: 5rem;
+    background-color: $color-purple;
+    padding: 4rem 0;
+    &__logo{
+        width: 5rem;
+    }
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1rem;
+        @include media-breakpoint-up(lg){
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    }
+    &__nav-link{
+        color: $color-white;
+        padding: 0;
+    }
+    &__copyright{
+        display: inline-block;
+        color: $color-white;
+    }
+    
+}
