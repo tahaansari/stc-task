@@ -5,6 +5,9 @@
 
 .filter{
     padding: 2rem 0;
+    @include media-breakpoint-up(lg){
+        padding: 4rem 0;
+    }
     &__btn{
         text-align: left;
         padding: 1rem;
