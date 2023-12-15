@@ -21,6 +21,7 @@
         }
         @include media-breakpoint-up(lg){
             font-size: 1.4rem;
+            padding: 1rem  2rem;
         }
     }
     &__topbar-right-link{
@@ -54,6 +55,11 @@
     &__navbar-item{
         padding: 1rem 0;
         font-size: 1.3rem;
+    }
+    .nav-item{
+        @include media-breakpoint-up(lg) {
+            padding: 0rem 1rem;
+        }
     }
     &__navbar-right{
         display: flex;
