@@ -7,9 +7,13 @@
     padding: 2rem 0;
     &__btn{
         text-align: left;
-        padding: 1.5rem;
+        padding: 1rem;
         border: 1px solid $color-purple;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+        @include media-breakpoint-up(lg){
+            font-size: 1.6rem;
+            padding: 1.5rem;
+        }
         &:after{
             content: "";
             position: absolute;

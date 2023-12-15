@@ -13,7 +13,7 @@ export default function productList(props) {
             // var realDigits = digits.map(Number);
             // console.log(realDigits);
             return (
-              <div key={index} className="col-12 col-md-6 col-lg-4">
+              <div key={index} className="productList__col col-12 col-md-6 col-lg-4">
                 <div className="productList__card card text-center shadow-lg">
                   {item.offer != "" ? <div className="productList__offer"> {item.offer} </div> : ""}
                   <div>

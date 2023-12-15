@@ -6,7 +6,7 @@ export default function footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row g-5">
+        <div className="row align-items-center">
           <div className="col-12 col-lg-1">
             <a href="javascript:void(0)">
               <img className="footer__logo" src={logo} alt="" />
