@@ -29,7 +29,7 @@ export default function header() {
                 </a>
               </li>
             </ul>
-            <ul className="nav">
+            <ul className="nav d-none d-lg-block">
               <li className="nav-item">
                 <a className="nav-link header__topbar-right-link" aria-current="page" href="javascript:void(0)">
                   Quickpay & Recharge
@@ -48,18 +48,18 @@ export default function header() {
           <div className="d-flex align-items-center">
             <div className="header__navbar-right d-lg-none">
               <div>
-                <a className="header__navbar-icon" href="#">
+                <a className="header__navbar-icon border-start border-end" href="#">
                   <i className="bi bi-search"></i>
                 </a>
               </div>
               <div>
-                <a className="header__navbar-icon" href="#">
+                <a className="header__navbar-icon border-end" href="#">
                   <i className="bi bi-cart3"></i>
                 </a>
               </div>
               <div>
                 <a className="header__navbar-login" href="#">
-                  <span>Login</span> <i className="ms-3 bi bi-arrow-right-square"></i>
+                  <span className="ms-4">Login</span> <i className="ms-3 bi bi-arrow-right-square"></i>
                 </a>
               </div>
             </div>

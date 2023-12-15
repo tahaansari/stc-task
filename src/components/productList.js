@@ -39,13 +39,13 @@ export default function productList(props) {
                       Full price:
                       {item.full_price != "" ? (
                         <span className="productList__full-price productList__full-price--linethrough ms-2">
-                          {item.full_price} BD{" "}
+                          {item.full_price} BD
                         </span>
                       ) : (
                         ""
                       )}
                       {item.discount_price != "" ? (
-                        <strong className="productList__discounted-price">BD {item.discount_price}</strong>
+                        <strong className="productList__discounted-price"> BD {item.discount_price} </strong>
                       ) : (
                         ""
                       )}
