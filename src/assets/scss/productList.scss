@@ -111,9 +111,9 @@
             object-fit: cover;
         }
     }
+    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+        border-color: $color-pink;
+                background-color: $color-pink;
+    }
 }
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
-    border-color: $color-pink;
-            background-color: $color-pink;
-}
