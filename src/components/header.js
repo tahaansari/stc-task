@@ -4,7 +4,7 @@ import "../assets/scss/header.scss";
 
 export default function header() {
   return (
-    <header className="header">
+    <header className="header fixed-top">
       <div className="header__topbar">
         <div className="container">
           <div className="d-flex justify-content-between">
